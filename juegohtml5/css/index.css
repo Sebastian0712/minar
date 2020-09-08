@@ -1,0 +1,159 @@
+body{
+	background-color: #000000;
+	width: 98%;
+	height: 98%;
+}
+@keyframes logocargaanimacion{
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+#logocarga{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+}
+#fondo2{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-color: #000000;
+	width: 98%;
+	height: 98%;
+}
+#inicio{
+	display: none;
+}
+#formulario1{
+	display: none;
+}
+#Loby{
+	display: none;
+}
+#tienda1{
+	display: none;
+}
+#elegirmapa1{
+	display: none;
+}
+#mapatierra{
+	display: none;
+}
+#fondo{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+#personaje{
+	position: absolute;
+	top: 36%;
+	left: 35%;
+	width: 25%;
+	height: 45%;
+}
+#Martillo{
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	width: 15%;
+	height: 15%;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 20%;
+}
+#Bombas{
+	position: absolute;
+	top: 35%;
+	left: 80%;
+	width: 15%;
+	height: 15%;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 20%;
+}
+#Poderes{
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	width: 15%;
+	height: 15%;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 20%;
+}
+#iniciar{
+	position: absolute;
+	top: 85%;
+	left: 80%;
+	width: 15%;
+	height: 10%;
+	background-color: #3104B4;
+    border-radius: 5%;
+    border-color: #58FAF4;
+    border-style: solid;
+}
+#espacio{
+	position: absolute;
+	background-color: #424242;
+	top: 79%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+}
+#herramienta{
+	position: absolute;
+	top: 62%;
+	left: 25%;
+	width: 10%;
+	height: 15%;
+}
+#cambiar1{
+	position: absolute;
+	top: 86%;
+	left: 24%;
+	width: 8%;
+	height: 8%;
+	border-color: #0000FF ;
+	border-style: solid;
+}
+#cambiar2{
+	position: absolute;
+	top: 86%;
+	left: 0%;
+	width: 8%;
+	height: 8%;
+	border-color: #0000FF ;
+	border-style: solid;
+}
+#tienda{
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 20%;
+	height: 20%;
+	background-color: #000;
+    border-radius: 5%;
+    border-color: #58FAF4;
+    border-style: solid;
+}
+#Name{
+position: absolute;
+top: -5%;
+left: 22%;
+height: 8%;
+color: #FFFFFF;
+}
+#Monedas{
+position: absolute;
+top: 5%;
+left: 22%;
+height: 8%;
+color: #FFFFFF;
+}

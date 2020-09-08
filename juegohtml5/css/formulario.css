@@ -1,0 +1,125 @@
+#textoname1{
+	position: absolute;
+	top: 45%;
+	left: 15%;
+	width: 20%;
+	height: 10%;
+}
+#escribirname1{
+	position: absolute;
+	top: 47%;
+	left: 45%;
+	width: 23%;
+	height: 5%;
+	border-radius: 20%;
+	color: #FFFFFF;
+	background-color: #000;
+	border-radius: 5%;
+	border-color: #58FAF4;
+	border-style: solid;
+	font-size: 7;
+}
+#escribirname2{
+	position: absolute;
+	top: 47%;
+	left: 45%;
+	width: 23%;
+	height: 5%;
+	border-radius: 20%;
+	color: #FFFFFF;
+	background-color: #000;
+	border-radius: 5%;
+	border-color: #58FAF4;
+	border-style: solid;
+	font-size: 7;
+}
+#textopasword1{
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	width: 25%;
+	height: 10%;
+}
+#escribirpasword1{
+	position: absolute;
+	top: 67%;
+	left: 45%;
+	width: 23%;
+	height: 5%;
+	border-radius: 20%;
+	color: #FFFFFF;
+	background-color: #000;
+	border-radius: 5%;
+	border-color: #58FAF4;
+	border-style: solid;
+	font-size: 7;
+}
+#escribirpasword2{
+	position: absolute;
+	top: 67%;
+	left: 45%;
+	width: 23%;
+	height: 5%;
+	border-radius: 20%;
+	color: #FFFFFF;
+	background-color: #000;
+	border-radius: 5%;
+	border-color: #58FAF4;
+	border-style: solid;
+	font-size: 7;
+}
+#botonimagen{
+position: absolute;
+top: 85%;
+left: 1%;
+width: 30%;
+height: 10%;
+background-color: #3104B4;
+border-radius: 5%;
+border-color: #58FAF4;
+border-style: solid;
+}
+#botonimagen1{
+position: absolute;
+top: 85%;
+left: 1%;
+width: 40%;
+height: 10%;
+background-color: #3104B4;
+border-radius: 5%;
+border-color: #58FAF4;
+border-style: solid;
+}
+#iniciarsesion1{
+position: absolute;
+top: 70%;
+left: 30%;
+width: 30%;
+height: 10%;
+background-color: #3104B4;
+border-radius: 5%;
+border-color: #58FAF4;
+border-style: solid;
+}
+#crearcuenta1{
+position: absolute;
+top: 85%;
+left: 25%;
+width: 40%;
+height: 10%;
+background-color: #3104B4;
+border-radius: 5%;
+border-color: #58FAF4;
+border-style: solid;
+}
+#cerrar{
+position: absolute;
+top: 85%;
+left: 70%;
+width: 25%;
+height: 10%;
+background-color: #3104B4;
+border-radius: 5%;
+border-color: #58FAF4;
+border-style: solid;
+}

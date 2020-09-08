@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JuegoHtml5</title>
+	<meta name="viewport" content="width=device-width,
+	 initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+</head>
+<body>
+
+
+<div  id="inicio" > 
+      <img id="fondo2" src="imagenes/fondoinicio.jpg">
+      <img onclick="dibujarformulario1()" id="iniciarsesion1" src="imagenes/iniciar.png">
+      </div>
+
+
+<div id="formulario1" >
+      <img  src="imagenes/fondoregistro.jpg" id="fondo2">
+
+           <img src="imagenes/name.png" id="textoname1">
+           <input id="escribirname2" type="text" >
+
+           <img src="imagenes/pasword.png" id="textopasword1">
+           <input id="escribirpasword2" type="text" >
+
+           <button onclick="IniciarSesion()" id="boton" type="button"> 
+            <img id="botonimagen" src="imagenes/iniciar.png"></button>
+
+           <img onclick="cerrarformularios()" id="cerrar" src="imagenes/volver.png">
+      
+           </div>
+
+
+<div id="Loby" >
+      <div id="fondo2"></div>
+      <img id="fondo" src="imagenes/fondoloby.jpg">
+      <img id="personaje" src="Personaje/personaje1.png">
+      <img id="Martillo" src="imagenes/candado.png">
+      <img id="Bombas" src="imagenes/candado.png">
+      <img id="Poderes" src="imagenes/candado.png">
+      <img onclick="dibujarelegirmapa()" id="iniciar" src="imagenes/iniciar.png">
+      <img onclick="dibujartienda()" id="tienda" src="imagenes/iconotienda.png">
+      <font id="tamano" size=5>
+      <p id="Name"></p>
+      <p id="Monedas"></p>
+      </font>
+      </div>
+
+
+<div id="tienda1" >
+      <div id="fondo2"></div>
+      <div id="espacio1"></div>
+      <img onclick="DibujarLoby()"id="tiendacerrar" src="imagenes/iconotienda.png">
+      <img id="tiendatexto" src="imagenes/tienda.png">
+
+
+      <div id="espacio2"></div>
+      <img onclick="InformacionArticulo1()" id="articulo1" src="imagenes/pala1.png">
+      <img onclick="ComprarArticulo01()" id="ComprarArticulo1" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo01()" id="EquiparArticulo1" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo1" src="imagenes/equipado.png">
+
+
+      <img onclick="InformacionArticulo2()" id="articulo2" src="imagenes/pala2.png">
+      <img onclick="ComprarArticulo02()" id="ComprarArticulo2" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo02()" id="EquiparArticulo2" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo2" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo3()" id="articulo3" src="imagenes/pala3.png">
+      <img onclick="ComprarArticulo03()" id="ComprarArticulo3" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo03()" id="EquiparArticulo3" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo3" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo4()" id="articulo4" src="imagenes/pico1.png">
+      <img onclick="ComprarArticulo04()" id="ComprarArticulo4" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo04()" id="EquiparArticulo4" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo4" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo5()" id="articulo5" src="imagenes/pico2.png">
+      <img onclick="ComprarArticulo05()" id="ComprarArticulo5" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo05()" id="EquiparArticulo5" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo5" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo6()" id="articulo6" src="imagenes/pico3.png">
+      <img onclick="ComprarArticulo06()" id="ComprarArticulo6" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo06()" id="EquiparArticulo6" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo6" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo7()" id="articulo7" src="imagenes/martillo1.png">
+      <img onclick="ComprarArticulo07()" id="ComprarArticulo7" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo07()" id="EquiparArticulo7" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo7" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo8()" id="articulo8" src="imagenes/dinamita1.png">
+      <img onclick="ComprarArticulo08()" id="ComprarArticulo8" src="imagenes/comprar.png">
+
+      <img onclick="InformacionArticulo9()" id="articulo9" src="imagenes/poder1.jpg">
+      <img onclick="ComprarArticulo09()" id="ComprarArticulo9" src="imagenes/comprar.png">
+
+      <img onclick="InformacionArticulo10()" id="articulo10" src="Personaje/personaje2.png">
+      <img onclick="ComprarArticulo010()" id="ComprarArticulo10" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo010()" id="EquiparArticulo10" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo10" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo11()" id="articulo11" src="Personaje/personaje3.png">
+      <img onclick="ComprarArticulo011()" id="ComprarArticulo11" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo011()" id="EquiparArticulo11" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo11" src="imagenes/equipado.png">
+
+      <img onclick="InformacionArticulo12()" id="articulo12" src="Personaje/personaje4.png">
+      <img onclick="ComprarArticulo012()" id="ComprarArticulo12" src="imagenes/comprar.png">
+      <img onclick="EquiparArticulo012()" id="EquiparArticulo12" src="imagenes/equipar.png">
+      <img  id="EquipadoArticulo12" src="imagenes/equipado.png">
+      
+      <img onclick="DesaparecerInformacion()" id="informacion">
+
+
+      <div id="TestComprar1" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si1()" id="si" src="imagenes/si.jpg">
+        <img onclick="no1()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar2" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si2()" id="si" src="imagenes/si.jpg">
+        <img onclick="no2()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar3" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si3()" id="si" src="imagenes/si.jpg">
+        <img onclick="no3()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar4" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si4()" id="si" src="imagenes/si.jpg">
+        <img onclick="no4()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar5" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si5()" id="si" src="imagenes/si.jpg">
+        <img onclick="no5()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar6" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si6()" id="si" src="imagenes/si.jpg">
+        <img onclick="no6()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar7" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si7()" id="si" src="imagenes/si.jpg">
+        <img onclick="no7()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar8" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si8()" id="si" src="imagenes/si.jpg">
+        <img onclick="no8()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar9" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si9()" id="si" src="imagenes/si.jpg">
+        <img onclick="no9()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar10" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si10()" id="si" src="imagenes/si.jpg">
+        <img onclick="no10()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar11" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si11()" id="si" src="imagenes/si.jpg">
+        <img onclick="no11()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      <div id="TestComprar12" >
+        <img id="Preguntacomprar" src="imagenes/Preguntacomprar.jpg">
+        <img onclick="si12()" id="si" src="imagenes/si.jpg">
+        <img onclick="no12()" id="no" src="imagenes/no.jpg">
+
+      </div>
+
+      </div>
+
+
+<div id="elegirmapa1" >
+
+      <div id="fondo2"></div>
+      <img onclick="dibujarmapa1(),empezarmapa1()" id="mapa1"  src="imagenes/mapa1.png">
+      <img onclick="dibujarmapa2(),empezarmapa2()" id="mapa2" src="imagenes/sinfondo.png">
+      </div>
+
+
+<div id="mapatierra"> 
+
+      <div id="fondo2"></div>
+      <img id="mapa" src="imagenes/mapa1.png" />
+      <img id="cartel" src="imagenes/score.jpg">
+      <font id="tamano" size=5>
+      <p id="puntos2"  class="texto-encima"></p>
+      <p id="numero">0</p>
+      </font>
+
+
+       <img id="a1" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a1()">
+       <img id="a2" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a2()">
+       <img id="a3" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a3()">
+       <img id="a4" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a4()">
+       <img id="a5" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a5()">
+       <img id="a6" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a6()">
+       <img id="a7" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a7()">
+       <img id="a8" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a8()">
+       <img id="a9" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a9()">
+
+
+       <img id="a10" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a10()">
+       <img id="a11" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a11()">
+       <img id="a12" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a12()">
+       <img id="a13" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a13()">
+       <img id="a14" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a14()">
+       <img id="a15" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a15()">
+       <img id="a16" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a16()">
+       <img id="a17" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a17()">
+       <img id="a18" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a18()">
+
+
+       <img id="a19" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a19()">
+       <img id="a20" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a20()">
+       <img id="a21" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a21()">
+       <img id="a22" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a22()">
+       <img id="a23" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a23()">
+       <img id="a24" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a24()">
+       <img id="a25" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a25()">
+       <img id="a26" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a26()">
+       <img id="a27" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a27()">
+
+
+       <img id="a28" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a28()">
+       <img id="a29" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a29()">
+       <img id="a30" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a30()">
+       <img id="a31" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a31()">
+       <img id="a32" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a32()">
+       <img id="a33" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a33()">
+       <img id="a34" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a34()">
+       <img id="a35" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a35()">
+       <img id="a36" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a36()">
+
+
+       <img id="a37" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a37()">
+       <img id="a38" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a38()">
+       <img id="a39" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a39()">
+       <img id="a40" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a40()">
+       <img id="a41" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a41()">
+       <img id="a42" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a42()">
+       <img id="a43" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a43()">
+       <img id="a44" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a44()">
+       <img id="a45" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a45()">
+
+
+       <img id="a46" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a46()">
+       <img id="a47" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a47()">
+       <img id="a48" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a48()">
+       <img id="a49" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a49()">
+       <img id="a50" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a50()">
+       <img id="a51" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a51()">
+       <img id="a52" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a52()">
+       <img id="a53" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a53()">
+       <img id="a54" src="https://i.ibb.co/8KBVgbZ/sinfondo.png"
+       onclick="a54()">
+
+      <img id="Martillo1" src="imagenes/candado.png">
+      <img id="Bombas1" onclick="Bomba()" src="imagenes/candado.png">
+      <img id="Poderes1" onclick="Poder0()" src="imagenes/candado.png"> 
+      <img id="Personaje1" src="imagenes/candado.png">  
+      <img id="BombaAnimacion1" src="imagenes/Bomba1.png">
+      <img id="BombaAnimacion2" src="imagenes/Bomba1.png">
+      <img id="BombaAnimacion3" src="imagenes/Bomba1.png">
+      <img id="BombaAnimacion4" src="imagenes/Bomba1.png">
+      <img id="BombaAnimacion5" src="imagenes/Bomba1.png">
+      <img id="BombaAnimacion6" src="imagenes/Bomba1.png">
+
+     <div id="scorefinal" >
+  
+      <div id="fondo2"></div>
+     <img id="fondo4" src="imagenes/logo.jpg">
+     <p id="score1"></p>
+     <p id="bitcoin1"></p>
+     <p id="diamante1"></p>
+     <p id="oro1"></p>
+     <img id="bitcoin" src="imagenes/bitcoin.jpg">
+     <img id="diamante" src="imagenes/diamante.jpg">
+     <img id="oro" src="imagenes/oro.jpg">
+     <img id="score" src="imagenes/score.jpg">
+     <img onclick="DibujarLoby(),SumarPuntaje1()" id="volver" src="imagenes/volver.png">
+
+     </div> </div>
+
+<img onclick="SaltodeAnimacion()" id="logocarga" src="imagenes/logocarga.png">
+
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/formulario.css">
+      <link rel="stylesheet" type="text/css" href="css/tienda.css">
+      <link rel="stylesheet" type="text/css" href="css/elegirmapa.css">
+      <link rel="stylesheet" type="text/css" href="css/mapa1.css">
+      <link rel="stylesheet" type="text/css" href="css/sumar.css">
+      <script src="js/index.js"></script>
+
+
+</body>
+</html>

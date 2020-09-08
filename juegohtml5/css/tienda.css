@@ -1,0 +1,591 @@
+#TestComprar1{
+	position: absolute;
+	top: 18%;
+	left: 2%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar2{
+	position: absolute;
+	top: 18%;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar3{
+	position: absolute;
+	top: 18%;
+	left: 55%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar4{
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar5{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar6{
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar7{
+	position: absolute;
+	top: 87%;
+	left: 2%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar8{
+	position: absolute;
+	top: 87%;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar9{
+	position: absolute;
+	top: 87%;
+	left: 55%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar10{
+	position: absolute;
+	top: 117%;
+	left: 2%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar11{
+	position: absolute;
+	top: 117%;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#TestComprar12{
+	position: absolute;
+	top: 117%;
+	left: 55%;
+	width: 40%;
+	height: 40%;
+	display: none;
+	background-color: #fff;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#si{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30%;
+	height: 30%;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 10%;
+}
+#no{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 30%;
+	height: 30%;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 10%;
+}
+#Preguntacomprar{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 90%;
+	height: 30%;
+	border-color: #000 ;
+	border-style: solid;
+	border-radius: 10%;
+}
+#informacion{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	display: none;
+}
+#espacio1{
+	position: absolute;
+	background-color: #DF013A;
+	top: 1%;
+	left: 1%;
+	width: 96%;
+	height: 15%;
+	border-color: #00FFCC ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#espacio2{
+	position: absolute;
+	background-color: #F2F2F2;
+	top: 20%;
+	left: 1%;
+	width: 96%;
+	height: 140%;
+	border-color: #00FFCC ;
+	border-style: solid;
+	border-radius: 5%;
+}
+#tiendacerrar{
+	position: absolute;
+	top: 4%;
+	left: 86%;
+	width: 10%;
+	height: 10%;
+	background-color: #000;
+    border-radius: 5%;
+    border-color: #58FAF4;
+    border-style: solid;
+}
+#tiendatexto{
+	position: absolute;
+	top: 4%;
+	left: 20%;
+	width: 20%;
+	height: 10%;
+}
+
+
+#articulo1{
+	position: absolute;
+	top: 25%;
+	left: 0%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo1{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo1{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo1{
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo2{
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo2{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo2{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo2{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo3{
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo3{
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo3{
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo3{
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+
+
+#articulo4{
+	position: absolute;
+	top: 60%;
+	left: 0%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo4{
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo4{
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo4{
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo5{
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo5{
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo5{
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo5{
+	position: absolute;
+	top: 65%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo6{
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	width: 15%;
+	height: 20%;
+}
+#ComprarArticulo6{
+	position: absolute;
+	top: 65%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo6{
+	position: absolute;
+	top: 65%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo6{
+	position: absolute;
+	top: 65%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+
+
+#articulo7{
+	position: absolute;
+	top: 95%;
+	left: 2%;
+	width: 12%;
+	height: 20%;
+}
+#ComprarArticulo7{
+	position: absolute;
+	top: 100%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo7{
+	position: absolute;
+	top: 100%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo7{
+	position: absolute;
+	top: 100%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo8{
+	position: absolute;
+	top: 95%;
+	left: 31%;
+	width: 12%;
+	height: 20%;
+}
+#ComprarArticulo8{
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#articulo9{
+	position: absolute;
+	top: 95%;
+	left: 61.5%;
+	width: 12%;
+	height: 20%;
+	border-radius: 10%;
+}
+#ComprarArticulo9{
+	position: absolute;
+	top: 100%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+
+
+#articulo10{
+	position: absolute;
+	top: 130%;
+	left: 1.5%;
+	width: 12%;
+	height: 20%;
+}
+#ComprarArticulo10{
+	position: absolute;
+	top: 135%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo10{
+	position: absolute;
+	top: 135%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo10{
+	position: absolute;
+	top: 135%;
+	left: 15%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo11{
+	position: absolute;
+	top: 130%;
+	left: 31.5%;
+	width: 12%;
+	height: 20%;
+}
+#ComprarArticulo11{
+	position: absolute;
+	top: 135%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo11{
+	position: absolute;
+	top: 135%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo11{
+	position: absolute;
+	top: 135%;
+	left: 45%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#articulo12{
+	position: absolute;
+	top: 130%;
+	left: 61.5%;
+	width: 12%;
+	height: 20%;
+}
+#ComprarArticulo12{
+	position: absolute;
+	top: 135%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+}
+#EquiparArticulo12{
+	position: absolute;
+    top: 135%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
+#EquipadoArticulo12{
+	position: absolute;
+    top: 135%;
+	left: 75%;
+	width: 15%;
+	height: 10%;
+	background-color: #000;
+	display: none;
+}
